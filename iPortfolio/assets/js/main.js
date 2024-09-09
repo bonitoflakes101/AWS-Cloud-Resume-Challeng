@@ -228,6 +228,7 @@
 
 })();
 
+
 // Lambda Function
 const counter = document.querySelector(".visitor-count");
 async function updateCounter(){

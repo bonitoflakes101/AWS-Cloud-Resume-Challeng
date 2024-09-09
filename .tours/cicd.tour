@@ -1,0 +1,21 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "CI/CD",
+  "steps": [
+    {
+      "file": ".github/workflows/main.yml",
+      "description": "Use github actions to streamline changes to production. ",
+      "line": 1
+    },
+    {
+      "file": ".github/workflows/main.yml",
+      "description": "git push = will make changes to the production server.",
+      "line": 3
+    },
+    {
+      "file": "iPortfolio/assets/js/main.js",
+      "description": "Lambda Integration: everytime the website is loaded, the lambda function gets called then interacts with dynamodb to get, update, and show the view count",
+      "line": 233
+    }
+  ]
+}
